@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d8e2b8-7b06-462f-8cfe-a62057ea76ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/books/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/books/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/books/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/books/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/books/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/literature_api.code-workspace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/tests/test_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/store/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/store/tests/test_serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/store/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/store/tests/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Programmirovanie/Dev/literature_api"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programmirovanie/Dev/literature_api&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_serializers.BookSerializerTestCase.test_get_books">
     <configuration name="Python tests for test_api.BooksApiTestCase.test_get_books" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="literature_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,8 +54,23 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_serializers.BookSerializerTestCase.test_get_books" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="literature_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/books/store/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_serializers.BookSerializerTestCase.test_get_books&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_serializers.BookSerializerTestCase.test_get_books" />
         <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase.test_get_books" />
       </list>
     </recent_temporary>
