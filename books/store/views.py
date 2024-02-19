@@ -11,5 +11,5 @@ class BookViewSet(ModelViewSet):
     serializer_class = BookSerializer
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_fields = ['price']
-    search_fields = ['title']
-    ordering_fields = ['price']
+    search_fields = ['title', 'author']
+    ordering_fields = ['price', 'author']

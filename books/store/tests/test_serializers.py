@@ -11,20 +11,31 @@ django.setup()
 
 class BookSerializerTestCase(TestCase):
 
-    def test_get_books(self):
-        book1 = Book.objects.create(title='Book 1', price=10.99)
-        book2 = Book.objects.create(title='Book 2', price=20.99)
-        data = BookSerializer([book1, book2], many=True).data
+    def setUp(self):
+        self.book1 = Book.objects.create(title='Book 1', price=10.99, author='Author 1')
+        self.book2 = Book.objects.create(title='Book 2', price=20.99, author='Author 2')
+        self.book3 = Book.objects.create(title='Book 3', price=30.99, author='Author 3')
+
+    def test_serializer_get(self):
+        data = BookSerializer([self.book1, self.book2, self.book3], many=True).data
         expected_data = [
             {
-                'id': book1.id,
+                'id': self.book1.id,
                 'title': 'Book 1',
-                'price': '10.99'
+                'price': '10.99',
+                'author': 'Author 1'
             },
             {
-                'id': book2.id,
+                'id': self.book2.id,
                 'title': 'Book 2',
-                'price': '20.99'
+                'price': '20.99',
+                'author': 'Author 2'
+            },
+            {
+                'id': self.book3.id,
+                'title': 'Book 3',
+                'price': '30.99',
+                'author': 'Author 3'
             }
         ]
         self.assertEqual(expected_data, data)
