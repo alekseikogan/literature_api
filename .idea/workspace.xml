@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6d8e2b8-7b06-462f-8cfe-a62057ea76ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/books/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/store/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/store/tests/test_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708353060784</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test_ordering done">
+      <created>1708355972054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708355972054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +174,7 @@
     <MESSAGE value="import os&#10;os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'books.settings')&#10;import django&#10;django.setup()" />
     <MESSAGE value="coverege 91%" />
     <MESSAGE value="add author to field and setUp to tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add author to field and setUp to tests" />
+    <MESSAGE value="test_ordering done" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_ordering done" />
   </component>
 </project>
