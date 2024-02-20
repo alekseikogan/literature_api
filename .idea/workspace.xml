@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d8e2b8-7b06-462f-8cfe-a62057ea76ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/books/templates/oauth2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/books/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/books/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/books/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/store/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,11 @@
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
     </force-push-targets>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmirovanie\Dev\literature_api\books" />
+    </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for test_api.BooksApiTestCase.test_ordering">
     <configuration name="Python tests for test_api.BooksApiTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -173,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708356119889</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made oauth with github">
+      <created>1708418707757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708418707757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +204,7 @@
     <MESSAGE value="add author to field and setUp to tests" />
     <MESSAGE value="test_ordering done" />
     <MESSAGE value="serializer_data_sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="serializer_data_sort" />
+    <MESSAGE value="made oauth with github" />
+    <option name="LAST_COMMIT_MESSAGE" value="made oauth with github" />
   </component>
 </project>
