@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d8e2b8-7b06-462f-8cfe-a62057ea76ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/books/store/migrations/0002_book_owner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/store/permissions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/store/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/store/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/store/tests/test_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/store/views.py" afterDir="false" />
     </list>
@@ -32,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Programmirovanie/Dev/literature_api"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programmirovanie/Dev/literature_api&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -51,7 +54,7 @@
       <recent name="D:\Programmirovanie\Dev\literature_api\books" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_api.BooksApiTestCase.test_delete">
+  <component name="RunManager" selected="Python tests.Python tests for test_api.BooksApiTestCase.test_update_not_owner_but_staff">
     <configuration name="Python tests for test_api.BooksApiTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="literature_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +83,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_api.BooksApiTestCase.test_delete" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_api.BooksApiTestCase.test_ordering" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="literature_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +93,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.BooksApiTestCase.test_delete&quot;" />
+      <option name="_new_target" value="&quot;test_api.BooksApiTestCase.test_ordering&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_api.BooksApiTestCase.test_update" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_api.BooksApiTestCase.test_update_not_owner" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="literature_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +107,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.BooksApiTestCase.test_update&quot;" />
+      <option name="_new_target" value="&quot;test_api.BooksApiTestCase.test_update_not_owner&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_serializers.BookSerializerTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_api.BooksApiTestCase.test_update_not_owner_but_staff" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="literature_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,17 +121,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_serializers.BookSerializerTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_api.BooksApiTestCase.test_update_not_owner_but_staff&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase.test_delete" />
-        <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase.test_update" />
-        <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase.test_create" />
-        <item itemvalue="Python tests.Python tests for test_serializers.BookSerializerTestCase" />
+        <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase.test_update_not_owner_but_staff" />
         <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase" />
+        <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase.test_update_not_owner" />
+        <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase.test_ordering" />
+        <item itemvalue="Python tests.Python tests for test_api.BooksApiTestCase.test_create" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708419536180</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test for create/update done">
+      <created>1708426188633</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708426188633</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +223,7 @@
     <MESSAGE value="serializer_data_sort" />
     <MESSAGE value="made oauth with github" />
     <MESSAGE value="env secrets added" />
-    <option name="LAST_COMMIT_MESSAGE" value="env secrets added" />
+    <MESSAGE value="test for create/update done" />
+    <option name="LAST_COMMIT_MESSAGE" value="test for create/update done" />
   </component>
 </project>
