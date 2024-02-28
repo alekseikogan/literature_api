@@ -12,8 +12,12 @@ class Book(models.Model):
         User,
         on_delete=models.SET_NULL,
         null=True,
-        related_name='books',
+        related_name='my_books',
         verbose_name='Владелец')
+    readers = models.ManyToManyField(
+        User,
+        through='UserBookRelation',
+        related_name='books')
 
     def __str__(self):
         return self.title
@@ -23,3 +27,23 @@ class Book(models.Model):
         ordering = ('title',)
         verbose_name = 'Книги'
         verbose_name_plural = 'Книги'
+
+
+class UserBookRelation(models.Model):
+
+    RATE_CHOISES = (
+        (1, 'Bad'),
+        (2, 'Fine'),
+        (3, 'Good'),
+        (4, 'Amazing'),
+        (5, 'Incredible')
+    )
+
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    book = models.ForeignKey(Book, on_delete=models.CASCADE)
+    like = models.BooleanField(default=False)
+    in_bookmarks = models.BooleanField(default=False)
+    rate = models.PositiveSmallIntegerField(choices=RATE_CHOISES)
+
+    def __str__(self) -> str:
+        return f'{self.user.username}|{self.book}|{self.rate}'
