@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include, re_path
 from rest_framework import routers
-from books.store.views import UserBooksRelationView
+from store.views import UserBooksRelationView
 
 from store.views import BookViewSet, auth
 
