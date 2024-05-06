@@ -35,12 +35,12 @@ class UserBooksRelationView(mixins.UpdateModelMixin, GenericViewSet):
     permission_classes = [IsAuthenticated]
     queryset = UserBookRelation.objects.all()
     serializer_class = UserBookRelationSerializer
-    lookup_field = 'book'
+    lookup_field = 'book'  # для удобства
 
     def get_object(self):
         obj, _ = UserBookRelation.objects.get_or_create(
             user=self.request.user,
-            book_id=self.kwargs['book']
+            book_id=self.kwargs['book']  # этот book пришел через lookup_field, по сути это id
         )
 
         return obj
